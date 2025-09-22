@@ -56,39 +56,6 @@ python dlps.py       # Exercício 5: Dataset Personalizado
 
 ## 📊 Relatório Final dos Exercícios
 
-### Exemplo 0: Blobs (Demonstração Básica)
-
-#### 1. Descrição do Dataset
-- **Número de amostras**: 200
-- **Features**: 2 (para visualização)
-- **Distribuição das classes**: Balanceada (100 samples por classe)
-- **Linearmente separável**: ✅ Sim
-
-#### 2. Resultados
-- **Acurácia no treino**: ~100%
-- **Acurácia no teste**: ~100%
-- **Épocas até convergência**: 5-10 épocas
-- **Tempo de treinamento**: < 0.01 segundos
-
-#### 3. Visualizações
-
-![Blobs - Gráfico Combinado](images/blobs_results.png)
-*Figura 1: Regiões de decisão e convergência para o dataset Blobs*
-
-![Blobs - Regiões de Decisão](images/blobs_decision_regions.png)
-*Figura 2: Regiões de decisão claramente definidas com fronteira linear perfeita*
-
-![Blobs - Convergência](images/blobs_convergence.png)
-*Figura 3: Convergência rápida em poucas épocas*
-
-#### 4. Análise
-- ✅ O perceptron foi **perfeitamente adequado** para este problema
-- Convergência rápida devido à separação clara entre classes
-- Demonstra o caso ideal para o algoritmo
-- **Comparação com expectativas**: Resultados excelentes conforme esperado
-
----
-
 ### Exercício 1: Iris Dataset (Setosa vs Versicolor)
 
 #### 1. Descrição do Dataset
@@ -129,7 +96,7 @@ python dlps.py       # Exercício 5: Dataset Personalizado
 - **Número de amostras**: 200
 - **Features**: 2
 - **Distribuição das classes**: Balanceada (100/100)
-- **Linearmente separável**: ❌ **NÃO** (formato de luas entrelaçadas)
+- **Linearmente separável**: ❌ Não
 
 #### 2. Resultados
 - **Acurácia no treino**: 80.71% **(CORRIGIDO)**
@@ -419,5 +386,6 @@ AtividadePerceptron/
 ├── requirements.txt            # Dependências do projeto
 └── README.md                   # Este relatório completo
 ```
+
 
 **Nota**: Os gráficos e visualizações são gerados automaticamente durante a execução de cada script, proporcionando uma compreensão visual completa do comportamento do algoritmo em diferentes cenários.
