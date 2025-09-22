@@ -67,7 +67,7 @@ python dlps.py       # Exercício 5: Dataset Personalizado
 #### 2. Resultados
 - **Acurácia no treino**: 100%
 - **Acurácia no teste**: 100%
-- **Épocas até convergência**: 3-5 épocas
+- **Épocas até convergência**: 2 épocas
 - **Tempo de treinamento**: 0.003 segundos
 
 #### 3. Visualizações
@@ -99,8 +99,8 @@ python dlps.py       # Exercício 5: Dataset Personalizado
 - **Linearmente separável**: ❌ Não
 
 #### 2. Resultados
-- **Acurácia no treino**: 80.71% **(CORRIGIDO)**
-- **Acurácia no teste**: 90.00% **(CORRIGIDO)**
+- **Acurácia no treino**: 80.71% 
+- **Acurácia no teste**: 90.00% 
 - **Acurácia geral**: 83.50%
 - **Épocas até convergência**: ❌ Não convergiu
 - **Erros finais**: 32
@@ -193,7 +193,6 @@ python dlps.py       # Exercício 5: Dataset Personalizado
 - **Features**: 2 (para visualização)
 - **Distribuição das classes**: Balanceada (100/100)
 - **Linearmente separável**: ⚠️ Varia com parâmetros de separação e ruído
-- **Metodologia**: Três experimentos controlados com `make_classification`
 
 #### 2. Resultados
 
@@ -258,22 +257,7 @@ python dlps.py       # Exercício 5: Dataset Personalizado
    - Mais ruído = mais erros finais = menor acurácia
    - Relação inversamente proporcional clara
 
-**4.2 Insights Quantitativos:**
-
-**Separação vs Performance:**
-- **< 1.0**: Performance inaceitável (≤ 73%)
-- **1.0-2.0**: Zona de transição crítica (+21.67%)
-- **> 2.0**: Zona de alta performance (≥ 95%)
-
-**Ruído vs Degradação:**
-- **0-5%**: Degradação tolerável (-6.67%)
-- **5-10%**: Degradação preocupante (-15%)
-- **10-20%**: Degradação severa (-15% adicional)
-
-**Early Stopping:**
-- **Benefício consistente**: +7.5% em cenários com ruído
-- **Eficiência**: 84% menos épocas (16 vs 100)
-- **Parada inteligente**: Evita overfitting
+---
 
 ### Exercício 5: Dataset Linearmente Separável Personalizado (DLPS)
 
@@ -389,3 +373,4 @@ AtividadePerceptron/
 
 
 **Nota**: Os gráficos e visualizações são gerados automaticamente durante a execução de cada script, proporcionando uma compreensão visual completa do comportamento do algoritmo em diferentes cenários.
+
